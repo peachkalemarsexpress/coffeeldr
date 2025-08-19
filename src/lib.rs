@@ -8,6 +8,7 @@ extern crate alloc;
 
 mod beacon;
 mod error;
+#[cfg(target_os = "windows")]
 mod parse;
 mod utils;
 
