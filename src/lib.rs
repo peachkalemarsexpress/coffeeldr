@@ -16,5 +16,7 @@ mod beacon_pack;
 pub use beacon_pack::*;
 
 /// Module containing the code that will load the COFF
+#[cfg(target_os = "windows")]
 mod loader;
+#[cfg(target_os = "windows")]
 pub use loader::*;
