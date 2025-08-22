@@ -10,7 +10,6 @@ extern crate alloc;
 mod beacon;
 mod error;
 mod parse;
-#[cfg(target_os = "windows")]
 mod utils;
 
 /// Module exposing the `BeaconPack` structure for packing and manipulating binary data, strings, integers, and buffers.
